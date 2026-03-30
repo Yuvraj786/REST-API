@@ -2,12 +2,6 @@
 
 Simple REST API for managing users. Create, read, update, and delete user data.
 
-## Live API
-
-🌐 **Base URL:** `https://curdapi-ycmy.onrender.com`
-
-💾 **Source Code:** [github.com/niladri-1/REST-API](https://github.com/niladri-1/REST-API)
-
 ## Setup
 
 ```bash
@@ -169,8 +163,6 @@ fetch('https://curdapi-ycmy.onrender.com/users/abc-123-def', {
 ## Important Notes
 
 ⚠️ **No Database:** Data is stored in memory only. When server restarts, all users are lost.
-
-💡 **Perfect for:** Learning, testing, portfolio projects
 
 🔑 **User ID:** Every user gets a unique ID automatically (UUID format)
 
